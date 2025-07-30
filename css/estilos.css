@@ -3,7 +3,7 @@ body
     color: #333;
     text-align: center;
     font-family: "Arial";
-    font-size: 16px;
+    font-size: 22px;
     margin: 0;
     padding: 0;
 
@@ -12,12 +12,12 @@ body
 {
     width: 70%;
     padding: 1cm;
-    text-align: center;
+    text-align: left;
     border: 1px solid #000;
-    margin: 0auto;
+    margin: 0 auto;
 
 }
 #container h1
 {
-    font-size: 30px;
+    font-size: 35px;
 }
