@@ -51,10 +51,12 @@ body
 
 #footer
 {
-    background: #777;
+    background: #4e54c8;
+    padding: 30px;
     color: white;
     text-align: center;
-    padding: 0.8cm;
+    font-size: 0.9rem;
+    margin-top: 40px;
 }
 
 .responsive-img {
@@ -64,4 +66,18 @@ body
     margin: 20px auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+    #container {
+        width: 95%;
+        padding: 15px;
+    }
+    #cabecera {
+        flex-direction: column;
+        gap: 10px;
+    }
+    #tagline {
+        margin-left: 0;
+    }
 }
