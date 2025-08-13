@@ -21,6 +21,7 @@
             <p><img src="imagenes/equipo.jpg" alt="Equipo de trabajo" class="responsive-img"></p>
             
             <p>Los blogs son la mejor forma de compartir información y tus ideas. Mucho más que ir a conferencias o salir en YouTube. Excepto si eres un rockstar. Pero estadísticamente no lo eres... por ahora.</p>
+
             
             <p>Explora más contenido sobre:</p>
             <ul>
@@ -31,8 +32,61 @@
             </ul>
             
             <p>¡Suscríbete y dale like!</p>
-        </div>
 
+
+            
+        </div>
+        <section id="contacto">
+    <h2>Contáctame</h2>
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" id="contact-form">
+        <div class="form-row">
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+            </div>
+            <div class="form-group">
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" name="apellido" required placeholder="Tu apellido">
+            </div>
+        </div>
+        
+        <div class="form-row">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="tu@email.com">
+            </div>
+            <div class="form-group">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="+57 300 1234567">
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Tu mensaje..."></textarea>
+        </div>
+        
+        <div class="form-group">
+            <label for="intereses">Temas de interés</label>
+            <div class="intereses-container">
+                <label>
+                    <input type="checkbox" name="intereses" value="git"> Git & GitHub
+                </label>
+                <label>
+                    <input type="checkbox" name="intereses" value="web"> Desarrollo Web
+                </label>
+                <label>
+                    <input type="checkbox" name="intereses" value="linux"> Linux
+                </label>
+                <label>
+                    <input type="checkbox" name="intereses" value="otros"> Otros
+                </label>
+            </div>
+        </div>
+        
+        <button type="submit" class="btn-enviar">Enviar Mensaje</button>
+    </form>
+</section>
         <div id="footer">
             Hecho con amor en La Véga por Javier Guerra &copy; 2025
         </div>
